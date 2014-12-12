@@ -26,12 +26,7 @@ $(document).ready(function() {
 						$('.loading').hide();
 						$('.forecast').show();
 						printError(errorMessage);
-					}
-				}
-			})
-		}
-	});
-});
+					}}})}});});
 
 extractForecast = function(forecast) {
 	// Drills down into forecast, removes first element (current day)
