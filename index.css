@@ -1,3 +1,110 @@
-.picture {
-	height: 200px;
+.container {
+	border: 3px solid black;
+	border-radius: 25px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin-top: 1%;
+	border-radius: 20px;
+}
+
+div { 
+	text-align: center;
+}
+
+.loading {
+	margin: 30px;
+}
+
+.search-box {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.zip-search {
+	width: 60%;
+	height: 15%;
+	border: none;
+	border-radius: 15px;
+	background-color: lightgray;
+	font-size: 5em;
+	text-align: center;
+}
+
+.zip-search:focus {
+	outline: none;
+}
+
+.forecast {
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.weather-card {
+	border: 3px solid black;
+	border-radius: 25px;
+	width: 90%;
+	margin-top:1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.spinner {
+  margin: 200px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
 }

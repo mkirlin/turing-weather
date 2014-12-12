@@ -8,22 +8,39 @@
 	<!-- Add jQuery -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-	<!-- Add Skeleton CSS framework -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 	<script src="index.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-	<div id="container">
-		<h1>Welcome to the Turing Weather Channel!</h1>
-		<div class="search"></div>
-		<div class="three_day_forecast">
-			<div id="day-" class="one-third column picture"></div>
-			<div id="day-" class="one-third column picture"></div>
-			<div id="day-" class="one-third column picture"></div>
+	<div class="container">
+		<!-- Welcome Message -->
+		<div class="col-xs-12 header">
+			<h1>Turing Weather Channel</h1>
 		</div>
+		<!-- Search Box -->
+		<div class="col-xs-12 search-box">
+			<input class="zip-search" placeholder="Zip Code">
+		</div>
+
+		<div class="loading">
+			<div class="spinner">
+			  <div class="rect1"></div>
+			  <div class="rect2"></div>
+			  <div class="rect3"></div>
+			  <div class="rect4"></div>
+			  <div class="rect5"></div>
+			</div>
+		</div>
+
+		<!-- Three Day Forecast -->
+		<div class="forecast col-xs-12"></div>
 	</div>
 </body>
 
