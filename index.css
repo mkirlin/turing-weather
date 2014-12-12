@@ -56,6 +56,14 @@ div {
 	padding-bottom: 15%;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.zip-search {
+		font-size: 2em;
+	}
+}
+
 .spinner {
   margin: 200px auto;
   width: 50px;
